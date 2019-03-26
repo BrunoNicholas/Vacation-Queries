@@ -26,8 +26,11 @@ User can answer questions about themselves and be given a vacation destination b
 ### More to the above objectives
   
   i. Code has proper indentation and spacing.
+  
   ii. Commits are made regularly with clear messages that finish the phrase "It will…".
+  
   iii. Project README that includes
+  
     - Author name
     - Program name
     - Description
