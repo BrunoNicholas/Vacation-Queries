@@ -33,6 +33,11 @@ section {
 	border-top: thin solid #fff;
 	border-bottom: thin solid #fff;
 }
+footer {
+	min-height: 80px;
+	text-align: center;
+	padding-top: 50px;
+}
 #abovenav {
 	width: 100%;
 	min-height: 130px;

@@ -28,3 +28,9 @@ header  h2 small{
 	border-bottom: none;
 	border-top: none;
 }
+.footers {
+	float: left;
+	padding: 10px;
+	width: 30%;
+	height: 80px;
+}
