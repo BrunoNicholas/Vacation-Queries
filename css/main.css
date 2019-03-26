@@ -18,12 +18,23 @@ header  h2 small{
 
 }
 .left-aside {
-	width: 20%;
+	width: 15%;
 	background-color: #fcf;
 	border-bottom: none;
+	text-align: center;
+}
+.left-aside > li {
+	list-style: none;
+	border: thin solid #fbf;
+	padding: 5px;
+	width: 90%;
+	display: inline-block;
+}
+.left-aside > li:hover {
+	background-color: #fbf;
 }
 .right-aside {
-	min-width: 40%;
+	min-width: 75%;
 	border-right: none;
 	border-bottom: none;
 	border-top: none;
@@ -33,4 +44,15 @@ header  h2 small{
 	padding: 10px;
 	width: 30%;
 	height: 80px;
+}
+.heading {
+	width: 100%;
+	text-align: center;
+	border-bottom: thin solid #e8e8e8;
+}
+.body {
+
+}
+fieldset {
+	border-radius: 5px;
 }
