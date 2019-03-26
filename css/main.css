@@ -1,0 +1,30 @@
+/* main.css */
+
+body {
+	font-family: "Lucida Console", Monaco, serif;
+	min-width: 400px;
+}
+header  h2 {
+	text-transform: uppercase;
+	text-shadow: 2px 2px lightgreen;
+}
+header  h2 small{
+	font-style: oblique;
+}
+.left-aside, .right-aside {
+	float: left;
+	min-height: 350px;
+	border: thin solid lightblue;
+
+}
+.left-aside {
+	width: 20%;
+	background-color: #fcf;
+	border-bottom: none;
+}
+.right-aside {
+	min-width: 40%;
+	border-right: none;
+	border-bottom: none;
+	border-top: none;
+}

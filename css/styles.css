@@ -33,6 +33,27 @@ section {
 	border-top: thin solid #fff;
 	border-bottom: thin solid #fff;
 }
+#abovenav {
+	width: 100%;
+	min-height: 130px;
+	text-align: center;
+}
+nav {
+	width: 100%;
+	padding: 5px 0px;
+	min-height: 27px;
+	background-color: #f1f1f1;
+	border-top: 3px solid #e3e3e3;
+	border-radius: 3px;
+}
+.navlink {
+	list-style: none;
+	float: right;
+	padding: 3px 10px 3px 10px;
+	border-radius: 3px;
+	background-color: lightgreen;
+	margin-right: 3px;
+}
 
 @media only screen and (max-width: 600px) {
   header, section, footer {
