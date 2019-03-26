@@ -12,16 +12,30 @@ header, section, footer {
 	min-height: 150px;
 	border-left: thin solid #f5e1e5;
 	border-right: thin solid #f5e1e5;
+	border: thin solid lightblue;
 	background-color: #e2e2d5;
 	opacity: 0.8;
 	filter: alpha(opacity=80);
+	text-align: center;
+	width: auto;
 }
 header, footer {
 	padding: 0px;
-	text-align: center;
+}
+header {
+	margin-top: 0px;
+	padding: 0px;
 }
 section {
 	background-color: #fff;
 	min-height: 340px;
 	border-radius: 5px;
+	border-top: thin solid #fff;
+	border-bottom: thin solid #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  header, section, footer {
+    margin: 0px;
+  }
 }
