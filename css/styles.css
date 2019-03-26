@@ -1,0 +1,27 @@
+/* styles.css */
+body {
+	margin: 0px;
+	background-image: url('../images/vacation.png');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	background-size: cover;
+}
+header, section, footer {
+	margin-left: 15%;
+	margin-right: 15%;
+	min-height: 150px;
+	border-left: thin solid #f5e1e5;
+	border-right: thin solid #f5e1e5;
+	background-color: #e2e2d5;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+header, footer {
+	padding: 0px;
+	text-align: center;
+}
+section {
+	background-color: #fff;
+	min-height: 340px;
+	border-radius: 5px;
+}
