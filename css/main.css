@@ -11,6 +11,10 @@ header  h2 {
 header  h2 small{
 	font-style: oblique;
 }
+a {	text-decoration: none; }
+a:hover { color: darkgreen; }
+a:active { color: red; }
+
 .left-aside, .right-aside {
 	float: left;
 	min-height: 350px;
@@ -31,7 +35,8 @@ header  h2 small{
 	display: inline-block;
 }
 .left-aside > li:hover {
-	background-color: #fbf;
+	background-color: #faf;
+	border-radius: 10px;
 }
 .right-aside {
 	min-width: 75%;
@@ -51,7 +56,7 @@ header  h2 small{
 	border-bottom: thin solid #e8e8e8;
 }
 .body {
-
+	float: left;
 }
 fieldset {
 	border-radius: 5px;
