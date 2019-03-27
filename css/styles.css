@@ -10,6 +10,7 @@ header, section, footer {
 	margin-left: 15%;
 	margin-right: 15%;
 	min-height: 150px;
+	min-width: 550px;
 	border-left: thin solid #f5e1e5;
 	border-right: thin solid #f5e1e5;
 	border: thin solid lightblue;
@@ -28,10 +29,16 @@ header {
 }
 section {
 	background-color: #fff;
-	min-height: 340px;
+	min-height: 350px;
 	border-radius: 5px;
 	border-top: thin solid #fff;
 	border-bottom: thin solid #fff;
+	overflow-y: auto;
+}
+footer {
+	min-height: 80px;
+	text-align: center;
+	padding: 20px;
 }
 #abovenav {
 	width: 100%;
@@ -53,10 +60,4 @@ nav {
 	border-radius: 3px;
 	background-color: lightgreen;
 	margin-right: 3px;
-}
-
-@media only screen and (max-width: 600px) {
-  header, section, footer {
-    margin: 0px;
-  }
 }

@@ -2,7 +2,7 @@
 
 body {
 	font-family: "Lucida Console", Monaco, serif;
-	min-width: 400px;
+	min-width: 300px;
 }
 header  h2 {
 	text-transform: uppercase;
@@ -11,20 +11,136 @@ header  h2 {
 header  h2 small{
 	font-style: oblique;
 }
+a {	text-decoration: none; }
+a > li:hover { color: darkgreen; }
+a > li:active { color: red; }
+
 .left-aside, .right-aside {
-	float: left;
-	min-height: 350px;
+	min-height: 400px;
 	border: thin solid lightblue;
+	display: block;
 
 }
 .left-aside {
-	width: 20%;
+	float: left;
+	width: 100px;
 	background-color: #fcf;
 	border-bottom: none;
+	text-align: center;
+}
+.left-aside > li {
+	list-style: none;
+	border: thin solid #fbf;
+	padding: 5px;
+	width: 90%;
+	display: inline-block;
+}
+.left-aside > li:hover {
+	background-color: #faf;
+	border-radius: 10px;
 }
 .right-aside {
-	min-width: 40%;
 	border-right: none;
 	border-bottom: none;
 	border-top: none;
+	width: auto;
+}
+form {
+	width: 80%
+}
+.footers {
+	float: left;
+	padding: 10px;
+	width: 30%;
+	height: 80px;
+}
+.heading {
+	width: 100%;
+	text-align: center;
+	border-bottom: thin solid #e8e8e8;
+}
+form {
+	float: left;
+	padding-left: 3px;
+}
+fieldset {
+	border-color: skyblue;
+	border-radius: 5px;
+	border-left: none;
+	border-right: none;
+}
+.form-group {
+	margin: 3px;
+	padding: 5px;
+	border: thin solid #e8e8e8;
+	border-radius: 5px;
+	text-align: left;
+	overflow-x: auto;
+}
+input {
+	margin: 2px;
+	border: thin solid #a9e9e9;
+	padding: 6px;
+	border-radius: 3px;
+}
+input[type=submit], input[type=reset] {
+	border: thin solid lightgreen;
+	padding: 5px 20px;
+	border-radius: 5px;
+}
+input[type=submit]:hover {
+	background-color: green;
+	color: white;
+}
+input[type=reset]:hover {
+	background-color: red;
+	color: white;
+}
+.form-seperator {
+	padding: 0px 15px;
+	border: thin solid #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  header, section, footer {
+    margin: 0px;
+    min-width: 100px;
+  }
+  section {
+  	width: 100%;
+  	min-height: 700px;
+  }
+  .left-aside, .right-aside {
+	min-height: 120px;
+	display: inline-block;
+  }
+  .left-aside {
+  	width: 100%;
+  }
+  .left-aside > li {
+  	border-left: none;
+  	border-right: none;
+  	border-radius: 10px;
+  }
+  .right-aside {
+  	min-height: 300px;
+  	overflow-y: auto;
+  	overflow-x: auto;
+  }
+  form {
+  	width: 98.6%;
+  	border: none;
+  }
+  .form-seperator {
+  	display: none;
+  }
+  .form-group {
+  	text-align: center;
+  }
+  input {
+  	width: 98%;
+  }
+  .side-footer {
+  	display: none;
+  }
 }

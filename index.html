@@ -6,10 +6,10 @@
 	<meta name="author" content="Bruno Nicholas">
 	<meta name="email" content="sbnibro256@gmail.com">
 	<meta name="description" content="The ultimate Vacational Querying place">
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <body>
-	<!-- -->
 	<header >
 		<div id="abovenav">
 			<h2>
@@ -17,19 +17,188 @@
 			</h2>
 		</div>
 		<nav>
-			<a href=""><li class="navlink"> Personal </li></a>
-    		<a href=""><li class="navlink"> Social </li></a>
-    		<a href=""><li class="navlink"> Environment </li></a>
-    		<a href=""><li class="navlink"> Places </li></a>
+			<a href="#places"><li class="navlink" title="Go to the Places section"> Places </li></a>
+    		<a href="#environment"><li class="navlink" title="Go to the Environment section"> Environment </li></a>
+    		<a href="#social"><li class="navlink" title="Go to the Social section"> Social </li></a>
+    		<a href="#personal"><li class="navlink" title="Go to the Personal section"> Personal </li></a>
 		</nav>
 			
 	</header>
 	<section>
-		<aside class="left-aside"></aside>
-		<aside class="right-aside"></aside>
+		<aside class="left-aside">
+			<li>Home</li>
+			<li>Places</li>
+			<li>Galleries</li>
+			<li>Interests</li>
+		</aside>
+		<aside class="right-aside">
+
+			<div class="heading">
+				<h3>Answer A Few Questions, You will be surprised!</h3>
+			</div>
+			<form action="" method="POST" id="reg_form">
+				<fieldset id="personal">
+					<legend> About You </legend>
+					<div class="form-group">
+						<label> Full Names : </label>
+						<input type="text" name="full_name" placeholder="Your names" autofocus required>
+
+						<label> Username : </label>
+						<input type="text" name="username" placeholder="Prefered username" required>
+					</div>
+					<div class="form-group">
+						<label> Gender:  </label>
+						<input type="radio" name="gender" value="Male" checked> Male
+						<input type="radio" name="gender" value="Female"> Female
+
+						<span class="form-seperator">|</span>
+						<br><br>
+						<label> Date Of Birth : </label>
+						<input type="date" name="date_of_birth" value="1990-12-31">
+					</div>
+					<div class="form-group">
+						<label> Your Address : </label>
+						<input type="text" name="city" placeholder="Current city" style="width: 120px;" title="City">
+						<input type="text" name="district" placeholder="Current district" style="width: 120px;" title="District">
+						<input type="text" name="country" placeholder="Current country" style="width: 120px;" title="Country" required>
+					</div>
+				</fieldset>
+				<br>
+				<fieldset id="social">
+					<legend> About your social life </legend>
+					<div class="form-group">
+						<label> Are you an introvert or extrovert : </label>
+						<br><br>
+						<input name="introv" type="radio" value="Introvert"> Introvert 
+						<input name="introv" type="radio" value="Extrovert"> Extrovert 
+						<input name="introv" type="radio" value="Other"> Other 
+					</div>
+					<br>
+					<div class="form-group">
+						<label> How do you love places with many people? </label> 
+						<br><br>
+						<i>Dislike</i>
+						<input type="radio" name="manypeople" value="1">
+						<input type="radio" name="manypeople" value="2">
+						<input type="radio" name="manypeople" value="3">
+						<input type="radio" name="manypeople" value="4">
+						<input type="radio" name="manypeople" value="5"> <i>Love It</i> 
+					</div>
+					<br>
+					<div class="form-group">
+						<label> How do you love animals? </label> 
+						<br><br>
+						<i>Dislike</i>
+						<input type="radio" name="animals" value="1">
+						<input type="radio" name="animals" value="2">
+						<input type="radio" name="animals" value="3">
+						<input type="radio" name="animals" value="4">
+						<input type="radio" name="animals" value="5"> <i>Love It</i> 
+					</div>
+					<br>
+					<div class="form-group">
+						<label> How do you public vacational places? </label> 
+						<br><br><i>Dislike</i>
+						<input type="radio" name="publicplaces" value="1">
+						<input type="radio" name="publicplaces" value="2">
+						<input type="radio" name="publicplaces" value="3" checked="">
+						<input type="radio" name="publicplaces" value="4">
+						<input type="radio" name="publicplaces" value="5"> <i>Love It</i> 
+					</div>
+					<br>
+					<div class="form-group">
+						<label> How do you love private vacational places? </label> 
+						<br><br>
+						<i>Dislike</i>
+						<input type="radio" name="privateplaces" value="1">
+						<input type="radio" name="privateplaces" value="2">
+						<input type="radio" name="privateplaces" value="3">
+						<input type="radio" name="privateplaces" value="4">
+						<input type="radio" name="privateplaces" value="5"> <i>Love It</i> 
+					</div>
+					<br>
+					<div class="form-group">
+						
+					</div>
+				</fieldset>
+				<br>
+				<fieldset id="environment">
+					<legend> Vacation Environment </legend>
+					<div class="form-group">
+						<label> How would you love water : </label>
+						<br><br>
+						<i>Dislike</i>
+						<input type="radio" name="water" value="1">
+						<input type="radio" name="water" value="2">
+						<input type="radio" name="water" value="3">
+						<input type="radio" name="water" value="4">
+						<input type="radio" name="water" value="5"> <i>Love It</i> 
+					</div>
+					<br>
+					<div class="form-group">
+						<label> How would you love hills &amp; mountains : </label>
+						<br><br>
+						<i>Dislike</i>
+						<input type="radio" name="hills" value="1">
+						<input type="radio" name="hills" value="2">
+						<input type="radio" name="hills" value="3">
+						<input type="radio" name="hills" value="4">
+						<input type="radio" name="hills" value="5"> <i>Love It</i> 
+					</div>
+					<br>
+					<div class="form-group">
+						<label> How would you love forests : </label>
+						<br><br>
+						<i>Dislike</i>
+						<input type="radio" name="forests" value="1">
+						<input type="radio" name="forests" value="2">
+						<input type="radio" name="forests" value="3">
+						<input type="radio" name="forests" value="4">
+						<input type="radio" name="forests" value="5"> <i>Love It</i> 
+					</div>
+					<br>
+					<div class="form-group">
+						<label> How would you love hotels and buildings : </label>
+						<br><br>
+						<i>Dislike</i>
+						<input type="radio" name="hotels" value="1">
+						<input type="radio" name="hotels" value="2">
+						<input type="radio" name="hotels" value="3">
+						<input type="radio" name="hotels" value="4">
+						<input type="radio" name="hotels" value="5"> <i>Love It</i> 
+					</div>
+				</fieldset>
+				<br>
+				<fieldset id="places">
+					<legend> Vacational Places </legend>
+					<div class="form-group">
+						<label> How far would you love going from where you are? </label>
+						<br><br>
+						<i>Dislike</i>
+						<input type="radio" name="water" value="1">
+						<input type="radio" name="water" value="2">
+						<input type="radio" name="water" value="3">
+						<input type="radio" name="water" value="4">
+						<input type="radio" name="water" value="5"> <i>Very Far</i> 
+					</div>
+					<br>
+				</fieldset>
+				<br>
+				<fieldset id="places" style="text-align: center;">
+					<legend> Form Operations </legend>
+					<input type="reset" value="REFRESH" name="refresh" class="btn btn-danger">
+					<input type="submit" value="SUBMIT" name="submit" class="btn btn-success">
+				</fieldset>
+			</form>
+
+		</aside>
 	</section>
 	<footer>
-		jjj
+		<div class="footers side-footer" style="border: none;"></div>
+		<div class="footers">
+    		&copy;2019 <a href="mailto:sbnibro256@gmail.com">Bruno Nicholas</a> <br> Moringa OutBox Cohort 2
+      	</div>
+  		<div class="footers side-footer"></div>
 	</footer>
 	<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
 	<script src="js/scripts.js" type="text/javascript"></script>

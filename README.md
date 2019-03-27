@@ -1,5 +1,59 @@
 # My Weekly Challenge 3
 
+## Contents
+
+  1. [Introduction](#introduction)
+
+    - [Author](#author)
+    - [Program Name](#program-name)
+    - [Description](#description)
+
+  2. [Copyright & Liscence Information](#license)
+
+    - [License to the program](#license)
+
+    - [Copyright by user](#copyright)
+
+
+  3. [Link to interface](#links)
+
+  4. [Intructions to work](#instructions)
+
+    - [Objectives](#objectives)
+    - [What is required](#required)
+    - [Guidelines](#guidelines)
+
+
+
+## Introduction
+
+  This is the week three project assignment
+
+### The Author
+
+  The author of this project is Bruno Nicholas Sserunkuma
+
+## License
+
+  This project  is open for practice and it is licensec under the MIT.
+
+  You can use it to have your understanding boosted.
+
+
+## Links
+
+  This project is hosted [Here](https://brunonicholas.github.io/Vacation-Queries/) or you can use this link.
+  You can as well copy and use this link
+
+  ```
+    https://brunonicholas.github.io/Vacation-Queries/
+  ```
+
+
+
+
+## Intructions
+
 User can answer questions about themselves and be given a vacation destination based on their answers.
 
   - Minimum of 5 survey questions
@@ -13,7 +67,7 @@ User can answer questions about themselves and be given a vacation destination b
   - Use fade in/out or slide in/out throughout your project
 
 
-## Objectives
+### Objectives
 
   1. All previous standards are in place (see below).
   2. Site uses branching to return destination.
