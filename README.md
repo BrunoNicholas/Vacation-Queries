@@ -2,23 +2,19 @@
 
 ## Contents
 
-  1. [Introduction](#introduction)
-
+  - [Introduction](#introduction)
     - [Author](#author)
     - [Program Name](#program-name)
     - [Description](#description)
 
-  2. [Copyright & Liscence Information](#license)
-
+  - [Copyright & Liscence Information](#license)
     - [License to the program](#license)
-
     - [Copyright by user](#copyright)
 
 
-  3. [Link to interface](#links)
+  - [Link to interface](#links)
 
-  4. [Intructions to work](#instructions)
-
+  - [Intructions to work](#instructions)
     - [Objectives](#objectives)
     - [What is required](#required)
     - [Guidelines](#guidelines)
